@@ -1,0 +1,90 @@
+.info {
+  text-align: center;
+}
+#form_table {
+  margin-top: 5%;
+  box-shadow: 0 0 8px rgb(204, 197, 197);
+  color: rgba(7, 7, 7, 0.712);
+  border-radius: 10px;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  background-color: rgba(255, 255, 255, 0.664);
+  column-count: 6;
+}
+
+/* #form_table .inputHeight {
+  height: 150%;
+} */
+
+#form_table p {
+  font-weight: bold;
+  margin-top: 1%;
+  float: left;
+  margin-left: 6px;
+}
+
+#form_table .longInput {
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 1%;
+  width: 90%;
+  height: 30px;
+  margin-left: 6px;
+  border: none;
+  background-color: rgba(5, 5, 5, 0.09);
+}
+
+#form_table select {
+  border-radius: 5px;
+  float: left;
+  margin-left: 6px;
+  width: 28.5%;
+  height: 30px;
+  border: none;
+  background-color: rgba(5, 5, 5, 0.09);
+}
+
+#form_table .phone,
+.fID,
+.height,
+.weight {
+  border-radius: 5px;
+  float: left;
+  margin-left: 6px;
+  margin-bottom: 5%;
+  width: 80%;
+  height: 30px;
+  background-color: rgba(5, 5, 5, 0.09);
+  border: none;
+}
+
+#form_table .month {
+  margin-left: 4%;
+}
+
+#form_table .dob {
+  border-radius: 5px;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 50%;
+  height: 30px;
+  border: none;
+  background-color: rgba(5, 5, 5, 0.09);
+}
+
+#form_table tr,
+#form_table td {
+  border: solid 1px rgba(4, 4, 31, 0);
+}
+
+.info .submit {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 18%;
+  height: 10%;
+  color: white;
+  font-size: 120%;
+  background-color: rgba(17, 69, 212, 0.815);
+}

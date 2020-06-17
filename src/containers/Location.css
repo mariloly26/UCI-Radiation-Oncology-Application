@@ -1,0 +1,101 @@
+.panel {
+  position: absolute;
+  top: 300px;
+  left: 1100px;
+  width: 13%;
+  background-color: hsla(231, 87%, 76%, 0.404);
+  min-width: 9em;
+  min-height: 9em;
+}
+
+.panel img {
+  margin-left: 3%;
+  margin-right: 4%;
+  width: 2%;
+  min-width: 0.8em;
+  height: 2%;
+  min-height: 0.8em;
+}
+
+.panelHeader {
+  margin-top: 10%;
+
+  font-weight: bold;
+}
+
+.panelBody {
+  margin-top: 10%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.panelBody p,
+img {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.header {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.dot {
+  /* position: absolute; */
+  /*
+  top: 78%;
+  bottom: 10%;
+  right: 10%;
+  left: 50%; */
+
+  font-weight: 800;
+  font-size: 100%;
+  color: rgb(22, 18, 224);
+  text-shadow: 1px 1px 1px white;
+  cursor: pointer;
+}
+
+.dot p:hover {
+  color: green;
+}
+
+.pInfo:hover,
+.pLocation:hover {
+  color: blue;
+}
+
+.map {
+  margin-top: 5px;
+  width: 1140px;
+  height: 850px;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  /* min-width: 30em;
+  min-height: 20em; */
+}
+
+.txt {
+  font-weight: bold;
+}
+
+.note {
+  width: 10%;
+  height: 10%;
+  float: right;
+  margin-right: 5%;
+}
+
+.grid {
+  border-color: blue;
+  position: absolute;
+  top: 300px;
+  left: 750px;
+}
+
+.heartRateText {
+  float: left;
+  color: red;
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: 0;
+}
